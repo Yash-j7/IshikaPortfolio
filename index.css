@@ -1,0 +1,106 @@
+/* General Reset */
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    color: #333;
+}
+
+a {
+    text-decoration: none;
+    color: #007bff;
+}
+
+a:hover {
+    color: #0056b3;
+}
+
+/* Header */
+header {
+    background: linear-gradient(135deg, #8dcaee, #0056b3);
+    color: white;
+    padding: 2rem 0;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2.5rem;
+}
+
+header p {
+    margin: 0.5rem 0 1.5rem;
+    font-size: 1.2rem;
+}
+
+header nav a {
+    margin: 0 1rem;
+    color: white;
+    font-weight: bold;
+}
+
+/* Sections */
+.section {
+    padding: 3rem 1rem;
+}
+
+.section h2 {
+    text-align: center;
+    margin-bottom: 2rem;
+    color: #0056b3;
+}
+
+.bg-light {
+    background: #f8f9fa;
+}
+
+.container {
+    max-width: 900px;
+    margin: auto;
+}
+
+/* Resume & Projects */
+.resume-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.resume-section ul li {
+    padding: 0.5rem 0;
+}
+
+.project {
+    margin-bottom: 1.5rem;
+}
+
+/* Footer */
+footer {
+    background: #f8f9fa;
+    text-align: center;
+    padding: 1rem 0;
+    color: #555;
+}
+/* View Resume Button */
+button#downloadResume {
+    display: inline-block;
+    padding: 0.5rem;
+    font-size: 1rem;
+    font-weight: bold;
+    color: #fff;
+    background-color: #1265bd; 
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+button#downloadResume:hover {
+    background-color: #095cb4; /* Darker blue on hover */
+    transform: translateY(-2px); /* Slightly lift the button */
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15); /* Enhance the shadow */
+}
+
+button#downloadResume:active {
+    transform: translateY(0); /* Return to original position on click */
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
